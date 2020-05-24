@@ -1,8 +1,8 @@
-#TP6 - Gestion des disques,Bootn Gestion des logs.
+# TP6 - Gestion des disques,Bootn Gestion des logs.
 
-##Dupanloup Shana - Thomas Pierrick
+## Dupanloup Shana - Thomas Pierrick
 
-###Exercice 1
+### Exercice 1
 
 __1. Dans l’interface de configuration de votre VM, créez un second disque dur, de 5 Go dynamiquement
 alloués ; puis démarrez la VM__
@@ -12,7 +12,7 @@ On créer un disque dur via l'interface de VM de 5Go. On a créé un nouveau dis
 
 __2. Vérifiez que ce nouveau disque dur est bien détecté par le système__
 
-On vérifie que ce disque est bien présent avec ````lsblk```. On observe bien un disque /dev/sdb de taille 5go. 
+On vérifie que ce disque est bien présent avec ```lsblk```. On observe bien un disque /dev/sdb de taille 5go. 
 
 __3. Partitionnez ce disque en utilisant fdisk : créez une première partition de 2 Go de type Linux (n°83),
 et une seconde partition de 3 Go en NTFS (n°7)__ 
